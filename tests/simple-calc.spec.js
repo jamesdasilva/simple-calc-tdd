@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { sum } from '../src/simple-calc.js';
+import { sum, sub } from '../src/simple-calc.js';
 
 describe('SimpleCalc', () => {
 
@@ -11,6 +11,11 @@ describe('SimpleCalc', () => {
         expect(sum).to.be.a('function');
       });
 
+      it('shoult exist the method `sub`', () => {
+        expect(sub).to.exist;
+        expect(sub).to.be.a('function');
+      });
+
   });
 
   describe('Sum', () => {
@@ -19,6 +24,15 @@ describe('SimpleCalc', () => {
     });
     it('should return -2 when `sum(2, -4)`', () => {
       expect(sum(2, -4)).to.be.equal(-2);
+    });
+  });
+
+  describe('Sub', () => {
+    it('should return -2 when `sub(2, 4)`', () => {
+      expect(sub(2, 4)).to.be.equal(-2);
+    });
+    it('should return 6 when `sub(2, -4)`', () => {
+      expect(sub(2, -4)).to.be.equal(6);
     });
   });
 
