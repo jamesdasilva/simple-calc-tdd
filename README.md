@@ -1,6 +1,6 @@
 # Simple Calc TDD JS
 
-Exercício prático para o estudo de fundamentos básicos de desenvolvimento orientado a testes (TDD).
+Exercício prático feito para estudar fundamentos básicos de desenvolvimento orientado a testes (TDD).
 
 ## Built With
 
