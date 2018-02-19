@@ -1,30 +1,6 @@
-# Qualicode Boilerplate JS
+# Simple Calc TDD JS
 
-Conjunto de ferramentas configuradas para a produção de código JavaScript com alta qualidade, através de bibliotecas de testes automatizados, styleguide, module bundler e hooks git.
-
-## Getting Started
-
-Para utilizar este boilerplate, é necessário clonar o repositório:
-```
-git clone https://github.com/jamesodas/qualicode-bp-js.git meu-projeto
-```
-Entrar no diretório do projeto:
-```
-cd meu-projeto
-```
-Excluir a pasta .git:
-```
-rm -rf .git
-```
-Reinicializar o respositório:
-```
-git init
-```
-E por fim, deve-se instalar as dependências: 
-```
-npm install
-```
-
+Exercício prático para o estudo de fundamentos básicos de desenvolvimento orientado a testes (TDD).
 
 ## Built With
 
